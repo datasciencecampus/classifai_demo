@@ -1,2 +1,2 @@
-mkdir ~/.cache/huggingfacehub/testmodel/
-wget -O ~/.cache/huggingfacehub/testmodel/testmodel.safetensors https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors?download=true
+mkdir huggingfacehub/testmodel/
+wget -O huggingfacehub/testmodel/testmodel.safetensors https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors?download=true
