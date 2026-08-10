@@ -1,0 +1,2 @@
+wget -P /data/sentence-transformers/all-MiniLM-L6-v2/model.safetensors https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors?download=true
+wget -P /data/sentence-transformers/all-MiniLM-L6-v2/config.json https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json?download=true
