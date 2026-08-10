@@ -7,6 +7,3 @@ all: ## Show the available make targets.
 
 setup-git-hooks: ## build & add pre-commit and pre-push hooks
 	pre-commit install --hook-type pre-commit --hook-type pre-push
-
-setup-git-hooks-no-docker: ## build & add pre-commit and pre-push hooks
-	pre-commit install --hook-type pre-commit --hook-type pre-push -c ".pre-commit-config-NO-DOCKER.yaml"
