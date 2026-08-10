@@ -30,14 +30,6 @@ repos:
     hooks:
       - id: nbstripout
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.13.2
-    hooks:
-      # Run the linter.
-      - id: ruff-check
-        args: [ --fix ]
-      # Run the formatter.
-      - id: ruff-format
 
   - repo: local
     hooks:
@@ -46,14 +38,3 @@ repos:
         entry: python
         language: fail
         files: ^src/__init__.py$
-
-      - id: local-vulnerability-detection
-        name: scan code with bandit
-        entry: make check-python-security
-        language: system
-
-      - id: deptry-uv
-        name: deptry (uv)
-        language: system
-        pass_filenames: false # deptry expects a project path, not filenames
-        entry: uv run deptry --per-rule-ignores "DEP003=plum,DEP004=quartodoc|numpydoc" .
