@@ -187,3 +187,5 @@ cython_debug/
 _site/
 docs/
 
+data/sentence_transformers/*
+!data/sentence_transformers/__init__.py
