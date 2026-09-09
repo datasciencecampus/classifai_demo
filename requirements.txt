@@ -1,2 +1,2 @@
-https://github.com/datasciencecampus/classifai/releases/download/v1.1.1/classifai-1.1.1-py3-none-any.whl
-classifai[huggingface]
+git+https://github.com/datasciencecampus/classifai.git@222-make-huggingface_light-vectoriser-dependency-group#egg=classifai[fastembed]
+pandas==2.3.3
