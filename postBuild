@@ -6,5 +6,6 @@ pip install --no-cache-dir fastembed
 echo "Pre-downloading and caching the embedding model for offline/runtime use..."
 python3 -c '
 from fastembed import TextEmbedding
-model = TextEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2",cache_dir="data/fastembed_cache/")
+model = TextEmbedding(model_name="sentence-transformers/all-MiniLM-L6-v2", cache_dir="data/fastembed_cache/")
 print("Fastembed model cached successfully!")
+'
