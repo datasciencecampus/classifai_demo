@@ -8,11 +8,12 @@ ClassifAI is a free, open-source (MIT Licence) Python package that simplifies se
 
 ## Try the ClassifAI Demo
 
-<div style="display: flex; justify-content: center; gap: 200px; align-items: center;">
+<div align="center">
   <a href="https://mybinder.org/v2/gh/datasciencecampus/classifai_demo/5-improve-demo-with-fake-soc-data?urlpath=%2Fdoc%2Ftree%2Fdemo%2FDEMO.ipynb">
-    <img src="https://mybinder.org/badge_logo.svg" alt="Binder" />
+    <img src="https://mybinder.org/badge_logo.svg" alt="Binder" align="middle" />
   </a>
-  <img src="classifai_demo_qr.png" alt="QR code for the ClassifAI demo" width="150" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="classifai_demo_qr.png" alt="QR code for the ClassifAI demo" width="150" align="middle" />
 </div>
 
 ## [Repository](https://github.com/datasciencecampus/classifai)
