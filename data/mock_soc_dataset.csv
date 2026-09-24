@@ -1,12 +1,14 @@
 soc_code,role,description,sector
-101,"Fruit farmer","Grows and harvests fruits such as apples, oranges, and berries.",Agriculture
-101,"Vegetable farmer","Cultivates and harvests vegetables like carrots, potatoes, and lettuce.",Agriculture
-102,"Dairy farmer","Manages cows for milk production and processes dairy products.",Agriculture
-102,"Sheep farmer","Raises sheep for wool, meat, and other products.",Agriculture
-103,"Construction laborer","Performs physical tasks on construction sites, such as digging and carrying materials.",Construction
-103,"Bricklayer","Lays bricks, concrete blocks, and stones to build walls and structures.",Construction
-104,"Carpenter","Constructs, installs, and repairs wooden frameworks and structures.",Construction
-105,"Electrician","Installs, maintains, and repairs electrical systems in buildings and equipment.",Construction
-106,"Plumber","Installs and repairs water, gas, and drainage systems in homes and businesses.",Construction
-107,"Software developer","Designs, writes, and tests computer programs and applications.",Technology
-107,"Web developer","Builds and maintains websites and web applications.",Technology
+5111,"Fruit farmer","Grows and harvests fruits such as apples, oranges, and berries.",Agriculture
+5111,"Vegetable farmer","Cultivates and harvests vegetables like carrots, potatoes, and lettuce.",Agriculture
+5111,"Dairy farmer","Manages cows for milk production and processes dairy products.",Agriculture
+5111,"Sheep farmer","Raises sheep for wool, meat, and other products.",Agriculture
+9129,"Construction laborer","Performs physical tasks on construction sites, such as digging and carrying materials.",Construction
+9129,"Bricklayer","Lays bricks, concrete blocks, and stones to build walls and structures.",Construction
+5313,"Carpenter","Constructs, installs, and repairs wooden frameworks and structures.",Construction
+5241,"Electrician","Installs, maintains, and repairs electrical systems in buildings and equipment.",Construction
+5315,"Plumber","Installs and repairs water, gas, and drainage systems in homes and businesses.",Construction
+2134,"Software developer","Designs, writes, and tests computer programs and applications.",Technology
+2134,"Web developer","Builds and maintains websites and web applications.",Technology
+2433,"Statistical Officer In Goverment","Analyses data and produces statistical reports for government.",Government
+2119,"University Research Assistant","Conducts university research and analysis.",Education
