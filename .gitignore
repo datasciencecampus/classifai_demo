@@ -187,3 +187,5 @@ cython_debug/
 _site/
 docs/
 
+data/fastembed_cache/
+data/mock_vector_store_data.csv

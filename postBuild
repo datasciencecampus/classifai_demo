@@ -1,2 +1,11 @@
-wget -O data/sentence-transformers/all-MiniLM-L6-v2/model.safetensors https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors?download=true
-wget -O data/sentence-transformers/all-MiniLM-L6-v2/config.json https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json?download=true
+#!/bin/bash
+
+echo "Installing fastembed..."
+pip install --no-cache-dir fastembed
+
+echo "Pre-downloading and caching the embedding model for offline/runtime use..."
+python3 -c '
+from fastembed import TextEmbedding
+model = TextEmbedding(model_name="BAAI/bge-small-en-v1.5", cache_dir="data/fastembed_cache/")
+print("Fastembed model cached successfully!")
+'
