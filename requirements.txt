@@ -1,2 +1,2 @@
-git+https://github.com/datasciencecampus/classifai.git@222-make-huggingface_light-vectoriser-dependency-group#egg=classifai[fastembed]
+classifai[fastembed] @ git+https://github.com/datasciencecampus/classifai.git@3541f6600414ea46e9ae2b30741b603509d67fcd
 pandas==2.3.3
