@@ -1,2 +1,2 @@
-https://github.com/datasciencecampus/classifai/releases/download/v1.1.1/classifai-1.1.1-py3-none-any.whl
-classifai[huggingface]
+classifai[fastembed] @ git+https://github.com/datasciencecampus/classifai.git@3541f6600414ea46e9ae2b30741b603509d67fcd
+pandas==2.3.3
