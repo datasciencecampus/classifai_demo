@@ -21,11 +21,10 @@ repos:
       - id: detect-private-key # detects the presence of private keys.
 
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.7.1
+    rev: 0.9.1
     hooks:
       - id: nbstripout
-        args: 
-        - --keep-output
+        args: ['--keep-output-type=execute_result']
 
   - repo: https://github.com/Yelp/detect-secrets
     rev: v1.5.0
