@@ -9,7 +9,7 @@ ClassifAI is a free, open-source (MIT Licence) Python package that simplifies se
 ## Try the ClassifAI Demo
 
 <div align="center">
-  <a href="https://mybinder.org/v2/gh/datasciencecampus/classifai_demo/5-improve-demo-with-fake-soc-data?urlpath=%2Fdoc%2Ftree%2Fdemo%2FDEMO.ipynb">
+  <a href="https://mybinder.org/v2/gh/datasciencecampus/classifai_demo/main?urlpath=%2Fdoc%2Ftree%2Fdemo%2FDEMO.ipynb">
     <img src="https://mybinder.org/badge_logo.svg" alt="Binder" align="middle" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
