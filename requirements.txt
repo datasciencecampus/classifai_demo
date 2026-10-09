@@ -1,2 +1,3 @@
 classifai[fastembed] @ git+https://github.com/datasciencecampus/classifai.git@3541f6600414ea46e9ae2b30741b603509d67fcd
 pandas==2.3.3
+polars>=1.26.0,<2
